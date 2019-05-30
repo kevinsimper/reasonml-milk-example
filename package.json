@@ -1,0 +1,19 @@
+{
+  "name": "milk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/read.bs.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bs-platform": "^5.0.4"
+  }
+}

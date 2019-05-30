@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "engines": {
+    "Js.Json": {
+      "output": "src/TypeSerde.re"
+    }
+  },
+  "entries": [
+    {
+      "file": "src/Spaceship.re",
+      "type": "ship"
+    }
+  ],
+  "custom": [],
+  "milkSchemaVersion": 1
+}

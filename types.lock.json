@@ -1,0 +1,52 @@
+{
+  "versions": [
+    {
+      "entries": [
+        {
+          "moduleName": "Spaceship",
+          "modulePath": [],
+          "engines": [
+            [
+              ["Js.Json"],
+              1
+            ]
+          ],
+          "name": "ship"
+        }
+      ],
+      "typeMap": [
+        [
+          [
+            "Spaceship",
+            [],
+            "ship"
+          ],
+          [
+            [],
+            {
+              "name": "ship",
+              "variables": [],
+              "body": [
+                "Record",
+                [
+                  [
+                    "name",
+                    [
+                      "Reference",
+                      [
+                        "Builtin",
+                        "int"
+                      ],
+                      []
+                    ]
+                  ]
+                ]
+              ]
+            }
+          ]
+        ]
+      ]
+    }
+  ],
+  "milkSchemaVersion": 1
+}
